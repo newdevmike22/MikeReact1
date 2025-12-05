@@ -1,11 +1,13 @@
-import Greet from "./01 Components/components/Greet";
-import Add from "./01 Components/Add";
+import Header from "./01 Components/components/Exercise/Header";
+import MainContent from "./01 Components/components/Exercise/MainContent";
+import Footer from "./01 Components/components/Exercise/Footer";
 
 const App = () => {
   return (
     <>
-      <Greet />
-      <Add />
+      <Header />
+      <MainContent />
+      <Footer />
     </>
   );
 };
