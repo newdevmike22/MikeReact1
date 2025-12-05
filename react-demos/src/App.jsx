@@ -1,13 +1,11 @@
-import Header from "./01 Components/components/Exercise/Header";
-import MainContent from "./01 Components/components/Exercise/MainContent";
-import Footer from "./01 Components/components/Exercise/Footer";
+import WelcomeMessage from "./02 JSX/components/WelcomeMessage";
+import JSXRules from "./02 JSX/components/JSXRules";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <MainContent />
-      <Footer />
+      <WelcomeMessage />
+      <JSXRules />
     </>
   );
 };
