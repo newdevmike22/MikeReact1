@@ -1,9 +1,11 @@
-import TestOne from "./Tests/components/TestOne";
+import UserList from "./04 Lists/components/UserList";
+import ProductList from "./04 Lists/components/ProductList";
 
 const App = () => {
   return (
     <>
-      <TestOne />
+      <UserList />
+      <ProductList />
     </>
   );
 };
