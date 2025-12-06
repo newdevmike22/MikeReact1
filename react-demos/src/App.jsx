@@ -1,11 +1,8 @@
-import UserList from "./04 Lists/components/UserList";
-import ProductList from "./04 Lists/components/ProductList";
-
+import TestThree from "./Tests/components/TestThree";
 const App = () => {
   return (
     <>
-      <UserList />
-      <ProductList />
+      <TestThree img="https://images2.alphacoders.com/131/thumb-1920-1314914.jpeg" name="Optimus Prime" race="Cybertronian" allegiance="Autobot" transformation="semi-truck" age="10M" />
     </>
   );
 };
