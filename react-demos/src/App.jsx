@@ -1,11 +1,9 @@
-import WelcomeMessage from "./02 JSX/components/WelcomeMessage";
-import JSXRules from "./02 JSX/components/JSXRules";
+import TestOne from "./Tests/components/TestOne";
 
 const App = () => {
   return (
     <>
-      <WelcomeMessage />
-      <JSXRules />
+      <TestOne />
     </>
   );
 };
