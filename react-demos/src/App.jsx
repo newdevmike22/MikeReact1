@@ -1,8 +1,9 @@
-import TestThree from "./Tests/components/TestThree";
+import PracticeTwo from "./Tests/components/Practice2";
+
 const App = () => {
   return (
     <>
-      <TestThree img="https://images2.alphacoders.com/131/thumb-1920-1314914.jpeg" name="Optimus Prime" race="Cybertronian" allegiance="Autobot" transformation="semi-truck" age="10M" />
+      <PracticeTwo />
     </>
   );
 };
