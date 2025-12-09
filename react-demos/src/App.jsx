@@ -1,9 +1,9 @@
-import PracticeTwo from "./Tests/components/Practice2";
+import Calculator from "./08 State/components/Calculator";
 
 const App = () => {
   return (
     <>
-      <PracticeTwo />
+      <Calculator />
     </>
   );
 };

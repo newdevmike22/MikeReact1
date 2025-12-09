@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fce803;
+  font-family: "Orbitron";
+}
+
+.calculator {
+  background: #fff;
+  max-width: 600px;
+  margin: 2rem auto 2rem auto;
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.75rem;
+    padding-top: 2rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #e60508;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* space between buttons */
+
+  button {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 35px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #1f0370;
+    color: #fff;
+    border-radius: 10px;
+    border: #1f0370;
+  }
+
+  button:hover {
+    background: #a3a2a2;
+  }
+}

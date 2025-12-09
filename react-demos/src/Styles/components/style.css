@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.styles1 {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+.styles2 {
+  background: lightgrey;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+.beer {
+  color: gold;
+  font-size: 30px;
+  text-align: center;
+}
