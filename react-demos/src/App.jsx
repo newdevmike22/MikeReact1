@@ -1,9 +1,9 @@
-import Calculator from "./08 State/components/Calculator";
+import Movies from "./Tests/components/Movies";
 
 const App = () => {
   return (
     <>
-      <Calculator />
+      <Movies />
     </>
   );
 };

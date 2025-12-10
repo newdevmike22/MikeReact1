@@ -1,0 +1,51 @@
+/* ensure sensible sizing */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: pink;
+}
+
+.cards-row {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  /* default: single column on very small screens */
+  grid-template-columns: 1fr;
+}
+
+/* 2 columns on medium screens */
+@media (min-width: 600px) {
+  .cards-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3 columns on large screens — this is the maximum */
+@media (min-width: 980px) {
+  .cards-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* keep cards working the same */
+.card {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  min-width: 0; /* prevents overflow with long content */
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 8px;
+}
