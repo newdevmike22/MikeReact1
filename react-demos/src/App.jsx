@@ -1,9 +1,9 @@
-import Switcher from "./10 Advanced Keys/components/Switcher";
+import SpideyVenomToggle from "./Spidey-Venom/SpideyVenomToggle";
 
 const App = () => {
   return (
     <>
-      <Switcher />
+      <SpideyVenomToggle />
     </>
   );
 };
