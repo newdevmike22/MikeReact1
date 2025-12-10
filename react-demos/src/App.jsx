@@ -1,9 +1,9 @@
-import Movies from "./Tests/components/Movies";
+import Switcher from "./10 Advanced Keys/components/Switcher";
 
 const App = () => {
   return (
     <>
-      <Movies />
+      <Switcher />
     </>
   );
 };
