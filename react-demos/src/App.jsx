@@ -1,9 +1,9 @@
-import SpideyVenomToggle from "./Spidey-Venom/SpideyVenomToggle";
+import MultiplyEffect from "./11 useEffect/components/MultipyEffect";
 
 const App = () => {
   return (
     <>
-      <SpideyVenomToggle />
+      <MultiplyEffect />
     </>
   );
 };
