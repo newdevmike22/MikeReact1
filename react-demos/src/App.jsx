@@ -1,10 +1,11 @@
-import MultiplyEffect from "./11 useEffect/components/MultipyEffect";
+import ComponentA from "./12 Prop Drilling/components/ComponentA";
 
 const App = () => {
+  const name = "Mike";
   return (
-    <>
-      <MultiplyEffect />
-    </>
+    <div>
+      <ComponentA name={name} />
+    </div>
   );
 };
 
